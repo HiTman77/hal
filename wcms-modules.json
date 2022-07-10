@@ -1,0 +1,13 @@
+{
+"version": 1,
+"themes": {
+"hal": {
+"name": "hal",
+"repo": "https://github.com/HiTman77/hal/",
+"zip": "https://github.com/HiTman77/hal/archive/refs/heads/main.zip",
+"summary": "hal",
+"version": "1.0.1",
+"image": "https://raw.githubusercontent.com/HiTman77/hal/main/preview.jpg"
+}
+}
+}
