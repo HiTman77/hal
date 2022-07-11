@@ -22,10 +22,11 @@
 <div class="col-12">
 <h1><a href="/" id="logo"><?= $Wcms->get('config', 'siteTitle') ?></a></h1>
 <nav id="nav">
-<a href="/">Homepage</a>
-<a href="/about">About</a>
-<a href="/faq">FAQ</a>
-<a href="/contact">Contact</a>
+<a href="/mlb-betting" title=" Betting"><i class="fas fa-baseball-ball" aria-hidden="true" style="font-size:24px"></i> MLB</a>
+<a href="/mlb-betting" title=" Betting"><i class="fas fa-basketball-ball" aria-hidden="true" style="font-size:24px"> NBA</i></a>
+<a href="/mlb-betting" title=" Betting"><i class="fas fa-football-ball" aria-hidden="true" style="font-size:24px"></i> NFL</a>
+<a href="/mlb-betting" title=" Betting"><i class="fas fa-hockey-puck" aria-hidden="true" style="font-size:24px"></i> NHL</a>
+<a href="/casino-sites" title=" Betting"><i class="fas fas fa-dice" aria-hidden="true" style="font-size:24px"></i> Casinos</a>
 </nav>
 </div>
 </div>
@@ -54,7 +55,7 @@
 <section>
 <div>
 <div class="row">
-
+dfsdfsdfsd
 </div>
 </div>
 </section>
@@ -72,5 +73,6 @@
 <script src="/themes/hal/assets/js/util.js"></script>
 <script src="/themes/hal/assets/js/main.js"></script>
 <?= $Wcms->js() ?>
+<script src="https://kit.fontawesome.com/f3d2ccccf4.js" crossorigin="anonymous"></script>
 </body>
 </html>
