@@ -23,10 +23,17 @@
 <h1><a href="/" id="logo"><?= $Wcms->get('config', 'siteTitle') ?></a></h1>
 <nav id="nav">
 <a href="/mlb-betting" title="MLB Betting"><i class="fas fa-baseball-ball" aria-hidden="true" style="font-size:24px"></i> MLB</a>
+<<<<<<< HEAD
 <a href="/nba-betting" title="NBA Betting"><i class="fas fa-basketball-ball" aria-hidden="true" style="font-size:24px"> NBA</i></a>
 <a href="/nfl-betting" title="NFL Betting"><i class="fas fa-football-ball" aria-hidden="true" style="font-size:24px"></i> NFL</a>
 <a href="/nhl-betting" title="NHL Betting"><i class="fas fa-hockey-puck" aria-hidden="true" style="font-size:24px"></i> NHL</a>
 <a href="/casino-sites" title="Casinos Betting"><i class="fas fas fa-dice" aria-hidden="true" style="font-size:24px"></i> Casinos</a>
+=======
+<a href="/nba-betting" title=" Betting"><i class="fas fa-basketball-ball" aria-hidden="true" style="font-size:24px"> NBA</i></a>
+<a href="/nfl-betting" title=" Betting"><i class="fas fa-football-ball" aria-hidden="true" style="font-size:24px"></i> NFL</a>
+<a href="/nhl-betting" title=" Betting"><i class="fas fa-hockey-puck" aria-hidden="true" style="font-size:24px"></i> NHL</a>
+<a href="/casino-sites" title=" Betting"><i class="fas fas fa-dice" aria-hidden="true" style="font-size:24px"></i> Casinos</a>
+>>>>>>> 9572e0b78311431b54ca91c54df067cbd4b3a4ff
 </nav>
 </div>
 </div>
