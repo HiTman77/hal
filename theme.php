@@ -22,11 +22,11 @@
 <div class="col-12">
 <h1><a href="/" id="logo"><?= $Wcms->get('config', 'siteTitle') ?></a></h1>
 <nav id="nav">
-<a href="/mlb-betting" title=" Betting"><i class="fas fa-baseball-ball" aria-hidden="true" style="font-size:24px"></i> MLB</a>
-<a href="/mlb-betting" title=" Betting"><i class="fas fa-basketball-ball" aria-hidden="true" style="font-size:24px"> NBA</i></a>
-<a href="/mlb-betting" title=" Betting"><i class="fas fa-football-ball" aria-hidden="true" style="font-size:24px"></i> NFL</a>
-<a href="/mlb-betting" title=" Betting"><i class="fas fa-hockey-puck" aria-hidden="true" style="font-size:24px"></i> NHL</a>
-<a href="/casino-sites" title=" Betting"><i class="fas fas fa-dice" aria-hidden="true" style="font-size:24px"></i> Casinos</a>
+<a href="/mlb-betting" title="MLB Betting"><i class="fas fa-baseball-ball" aria-hidden="true" style="font-size:24px"></i> MLB</a>
+<a href="/nba-betting" title="NBA Betting"><i class="fas fa-basketball-ball" aria-hidden="true" style="font-size:24px"> NBA</i></a>
+<a href="/nfl-betting" title="NFL Betting"><i class="fas fa-football-ball" aria-hidden="true" style="font-size:24px"></i> NFL</a>
+<a href="/nhl-betting" title="NHL Betting"><i class="fas fa-hockey-puck" aria-hidden="true" style="font-size:24px"></i> NHL</a>
+<a href="/casino-sites" title="Casinos Betting"><i class="fas fas fa-dice" aria-hidden="true" style="font-size:24px"></i> Casinos</a>
 </nav>
 </div>
 </div>
@@ -47,23 +47,16 @@
 </div>
 </div>
 </section>
-<section id="footer">
+<section id="content">
 <div class="container">
 <div class="row">
-<?= $Wcms->block('subside') ?>
 <div class="col-12 col-12-medium">
-<section>
-<div>
-<div class="row">
-dfsdfsdfsd
-</div>
-</div>
-</section>
+<?= $Wcms->block('subside') ?>
 </div>
 </div>
 </div>
 </section>
-<div id="copyright">
+<div id="footer" class="col-12 col-12-medium">
 <?= $Wcms->footer() ?>
 </div>
 </div>
