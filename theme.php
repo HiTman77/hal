@@ -8,9 +8,10 @@
 <link rel="shortcut icon" href="/data/files/favicon.png">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="/themes/hal/assets/css/main.css?v<?php echo(rand(1,15));?><?php echo(rand(1,15));?>" />
+<link rel="stylesheet" href="/themes/hal/assets/css/main.css?vx<?php echo(rand(1,15));?><?php echo(rand(1,15));?>" />
 <?= $Wcms->css() ?>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 </head>
 <body class="subpage">
 <?= $Wcms->settings() ?>
@@ -20,10 +21,11 @@
 <div class="container">
 <div class="row">
 <div class="col-12">
-<h1><a href="/" id="logo"><?= $Wcms->get('config', 'siteTitle') ?></a></h1>
+<div id="logo"><h1><a href="/">
+<img src="/data/files/logo.png" id="logo-responsive"></a></h1></div>
 <nav id="nav">
 <a href="/mlb-betting" title="MLB Betting"><i class="fas fa-baseball-ball" aria-hidden="true" style="font-size:24px"></i> MLB</a>
-<a href="/nba-betting" title="NBA Betting"><i class="fas fa-basketball-ball" aria-hidden="true" style="font-size:24px"> NBA</i></a>
+<a href="/nba-betting" title="NBA Betting"><i class="fas fa-basketball-ball" aria-hidden="true" style="font-size:24px"></i> NBA</a>
 <a href="/nfl-betting" title="NFL Betting"><i class="fas fa-football-ball" aria-hidden="true" style="font-size:24px"></i> NFL</a>
 <a href="/nhl-betting" title="NHL Betting"><i class="fas fa-hockey-puck" aria-hidden="true" style="font-size:24px"></i> NHL</a>
 <a href="/casino-sites" title="Casinos Betting"><i class="fas fas fa-dice" aria-hidden="true" style="font-size:24px"></i> Casinos</a>
@@ -42,16 +44,8 @@
 <h3><?= $Wcms->page('description') ?></h3>
 </header>
 <?= $Wcms->page('content') ?>
-</section>
-</div>
-</div>
-</div>
-</section>
-<section id="content">
-<div class="container">
-<div class="row">
-<div class="col-12 col-12-medium">
 <?= $Wcms->block('subside') ?>
+</section>
 </div>
 </div>
 </div>
